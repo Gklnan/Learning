@@ -1,0 +1,13 @@
+1. Install Java
+
+2. Download Eclipse
+
+3. Setup Dependencies in pom.xml
+      - Restassured
+      - hamcrest
+      -
+
+
+
+
+
