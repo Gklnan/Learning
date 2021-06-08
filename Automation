@@ -1,11 +1,21 @@
 1. Install Java
 
-2. Download Eclipse
+2. Download Eclipse - Create java project - link to maven jar
 
-3. Setup Dependencies in pom.xml
+3. Setup Dependencies in pom.xml; Maven Repository https://mvnrepository.com/
       - Restassured
+      - Testng
       - hamcrest
-      -
+      
+4. Writ the code in Given-when-then form
+      
+4. Assertions on Json.
+    asserthat() method
+    
+5. Parsing json - Parse the Json response body using json path class
+
+6.
+      
 
 
 
