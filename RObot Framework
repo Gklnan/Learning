@@ -20,3 +20,10 @@ ${response}= get request myssion /utilities/weather/city/${city}
 log to console ${response.status_code}
 log to console ${response.content}
 log to console ${response.headers}
+
+
+
+
+
+
+https://www.youtube.com/watch?v=LSRp2IwMAhM&list=PLUDwpEzHYYLvMLbma_Rp-6jrrpxkeH0VJ&index=2&t=177s
