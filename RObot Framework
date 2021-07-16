@@ -1,0 +1,22 @@
+***settings***
+Library requests
+
+
+
+
+****Variables****
+${base_url}    http://restapi.demoqa.com
+${city}       Delhi
+
+
+
+
+
+****TestCases***
+Get_Weatherinfo
+
+create session myssion ${base_url}
+${response}= get request myssion /utilities/weather/city/${city}
+log to console ${response.status_code}
+log to console ${response.content}
+log to console ${response.headers}
